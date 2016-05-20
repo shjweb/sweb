@@ -1,0 +1,101 @@
+body{
+    background: #051748;
+}
+i,em{
+    font-style: normal;
+}
+b{
+    font-weight: normal;
+}
+/*头部*/
+.top{
+    width:100%;
+    background:#051b52;
+}
+.top-head{
+    width: 1200px;
+    height: 324px;
+    margin: 0 auto;
+    background: url("../imgs/jiangnanbank/jiang_banner_center.jpg") no-repeat center center;
+    position: relative;
+}
+.top-head-left{
+    position: absolute;
+    top: 0px;
+    left:-346px;
+    width:347px;
+    height:324px;
+    background: url("../imgs/jiangnanbank/jiang_banner_left.jpg") repeat-x;
+}
+.top-head-right{
+    position: absolute;
+    top: 0px;
+    right:-358px;
+    width:359px;
+    height:324px;
+    background: url("../imgs/jiangnanbank/jiang_banner_right.jpg") repeat-x;
+}
+
+
+
+/*主体*/
+.middle_container{
+    width:1202px;
+    margin: 0 auto;
+    background: #05133d;
+}
+.rz-main{
+    height:1713px;
+    position: relative;
+    background: url("../imgs/jiangnanbank/jiang_content_center.jpg") no-repeat;
+}
+.rz-main-left{
+    position: absolute;
+    top: 0px;
+    left:-347px;
+    width:347px;
+    height:1713px;
+    background: url("../imgs/jiangnanbank/jiang_content_left.jpg");
+}
+.rz-main-right{
+    position: absolute;
+    top: 0px;
+    right:-371px;
+    width:374px;
+    height:1713px;
+    background: url("../imgs/jiangnanbank/jiang_content_right.jpg");
+}
+.jn-content{
+    width: 1012px;
+    margin-left:107px;
+    height:100%;
+    padding-top:55px;
+}
+.jn-title{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    background:url("../imgs/jiangnanbank/jiangnan_icon.png") no-repeat left center;
+    padding-left:34px;
+}
+.jn-border{
+    border:1px solid #d1d8a8;
+    border-radius: 15px;
+    padding:8px 15px;
+    font-size:18px;
+    color:#f1d551;
+    text-align: center;
+}
+.jn-txt{
+    font-size:16px;
+    color:#fefefe;
+    text-indent:20px;
+    line-height:40px;
+    padding:15px 0 50px 46px;
+    text-align: justify;
+}
+.jn-zhengshu{
+    width:760px;
+    height:525px;
+    margin:0 auto;
+}
